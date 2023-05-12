@@ -22,6 +22,7 @@ body {
   line-height: 31px;
   text-decoration: none;
   color: var(--black);
+  letter-spacing: 0.03em;
 }
 
 .logo-blue {
@@ -30,6 +31,7 @@ body {
   font-size: 26px;
   line-height: 31px;
   color: var(--blue);
+  letter-spacing: 0.03em;
 }
 
 .logo:hover,
@@ -43,6 +45,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .menu-blue {
@@ -66,6 +69,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   list-style: none;
+  letter-spacing: 0.02em;
 }
 
 .mail {
@@ -91,6 +95,8 @@ body {
   font-size: 44px;
   line-height: 136%;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 button {
@@ -101,6 +107,7 @@ button {
   line-height: 30px;
   align-items: center;
   text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .first-section,
@@ -110,6 +117,7 @@ button {
   color: var(--gray);
   font-size: 14px;
   line-height: 171%;
+  letter-spacing: 0.03em;
 }
 
 .h4 {
@@ -117,6 +125,7 @@ button {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
+  text-transform: uppercase;
 }
 
 .second-section,
@@ -125,9 +134,94 @@ button {
   background-color: var(--almost-white);
 }
 
-.h2 {
+.h2-second-section {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.third-section,
+.third-section-list {
+  list-style: none;
+  background-color: var(--light-gray);
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--gray);
+}
+
+.h2-third-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--almost-black);
+}
+
+.h3 {
+  font-weight: 500;
+  color: var(--almost-black);
+}
+
+footer {
+  background-color: var(--dark-gray);
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+  color: var(--white);
+  letter-spacing: 0.03em;
+}
+
+.logo-blue-footer {
+  font-family: "Oleo Script", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--blue);
+  letter-spacing: 0.03em;
+}
+
+.logo-footer:hover,
+.logo-blue-footer:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
+}
+
+.address-link {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.contact-footer {
+  font-size: 14px;
+  line-height: 24px;
+  list-style: none;
+  letter-spacing: 0.03em;
+}
+
+.mail-footer {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.tel-footer {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.mail-footer:hover,
+.tel-footer:hover,
+.address-link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
 }
