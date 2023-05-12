@@ -1,0 +1,133 @@
+:root {
+  --white: #ffffff;
+  --almost-white: #e5e5e5;
+  --blue: #2196f3;
+  --almost-black: #212121;
+  --black: #000000;
+  --dark-gray: #2f303a;
+  --gray: #757575;
+  --light-gray: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--almost-black);
+  background-color: var(--white);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.logo-blue {
+  font-family: "Oleo Script", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--blue);
+}
+
+.logo:hover,
+.logo-blue:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
+}
+
+.nav-menu {
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.menu-blue {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.menu {
+  text-decoration: none;
+  color: var(--almost-black);
+}
+
+.menu-blue:hover,
+.menu:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
+}
+
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  list-style: none;
+}
+
+.mail {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.tel {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+.mail:hover,
+.tel:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
+}
+
+.h1 {
+  background-color: var(--dark-gray);
+  color: var(--white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  text-align: center;
+}
+
+button {
+  background-color: var(--blue);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.first-section,
+.first-section-list {
+  list-style: none;
+  background-color: var(--almost-white);
+  color: var(--gray);
+  font-size: 14px;
+  line-height: 171%;
+}
+
+.h4 {
+  color: var(--almost-black);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.second-section,
+.second-section-list {
+  list-style: none;
+  background-color: var(--almost-white);
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
