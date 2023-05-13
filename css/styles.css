@@ -48,6 +48,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.nav-menu li {
+  display: inline;
+}
+
 .menu-blue {
   color: var(--blue);
   text-decoration: none;
@@ -70,6 +74,10 @@ body {
   line-height: 16px;
   list-style: none;
   letter-spacing: 0.02em;
+}
+
+.contact li {
+  display: inline;
 }
 
 .mail {
@@ -132,6 +140,7 @@ button {
 .second-section-list {
   list-style: none;
   background-color: var(--almost-white);
+  text-align: center;
 }
 
 .h2-second-section {
@@ -140,6 +149,10 @@ button {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.second-section-list li {
+  display: inline-block;
 }
 
 .third-section,
@@ -153,15 +166,15 @@ button {
   color: var(--gray);
 }
 
+.h3 {
+  font-weight: 500;
+  color: var(--almost-black);
+}
+
 .h2-third-section {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  color: var(--almost-black);
-}
-
-.h3 {
-  font-weight: 500;
   color: var(--almost-black);
 }
 
@@ -222,6 +235,66 @@ footer {
 .mail-footer:hover,
 .tel-footer:hover,
 .address-link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
+}
+
+.pf-button-menu {
+  list-style: none;
+  text-align: center;
+}
+
+.pf-button-menu li {
+  display: inline;
+}
+
+.pf-button-blue {
+  background-color: var(--blue);
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.pf-button {
+  background-color: var(--light-gray);
+  color: var(--almost-black);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.pf-section {
+  background-color: var(--almost-white);
+  list-style: none;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+
+.pf-section li {
+  display: inline-block;
+}
+
+.pf-section p {
+  text-align: left;
+}
+
+.h2-pf-section {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: left;
+  letter-spacing: 0.06em;
+}
+
+.h2-pf-section:hover,
+.pf-section p:hover {
   text-decoration: underline;
   text-decoration-color: var(--blue);
 }
