@@ -7,6 +7,7 @@
   --dark-gray: #2f303a;
   --gray: #757575;
   --light-gray: #f5f4fa;
+  --button-blue: #0000ff;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.1923em;
   text-decoration: none;
   color: var(--black);
   letter-spacing: 0.03em;
@@ -29,22 +30,21 @@ body {
   font-family: "Oleo Script", sans-serif;
   font-weight: 400;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.1923em;
   color: var(--blue);
   letter-spacing: 0.03em;
 }
 
 .logo:hover,
 .logo-blue:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--blue);
+  text-decoration: underline solid var(--blue);
 }
 
 .nav-menu {
   list-style: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1428em;
   letter-spacing: 0.02em;
 }
 
@@ -64,14 +64,13 @@ body {
 
 .menu-blue:hover,
 .menu:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--blue);
+  text-decoration: underline solid var(--blue);
 }
 
 .contact {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1428em;
   list-style: none;
   letter-spacing: 0.02em;
 }
@@ -92,8 +91,7 @@ body {
 
 .mail:hover,
 .tel:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--blue);
+  text-decoration: underline solid var(--blue);
 }
 
 .h1 {
@@ -101,22 +99,26 @@ body {
   color: var(--white);
   font-weight: 900;
   font-size: 44px;
-  line-height: 136%;
+  line-height: 1.3636;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
-button {
+.button {
   background-color: var(--blue);
   color: var(--white);
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875em;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+}
+
+.button:hover {
+  text-decoration: underline solid var(--button-blue);
 }
 
 .first-section,
@@ -125,7 +127,7 @@ button {
   background-color: var(--almost-white);
   color: var(--gray);
   font-size: 14px;
-  line-height: 171%;
+  line-height: 1.7142em;
   letter-spacing: 0.03em;
 }
 
@@ -133,7 +135,7 @@ button {
   color: var(--almost-black);
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1428em;
   text-transform: uppercase;
 }
 
@@ -147,7 +149,7 @@ button {
 .h2-second-section {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.1666em;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -161,7 +163,7 @@ button {
   list-style: none;
   background-color: var(--light-gray);
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.1875em;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--gray);
@@ -175,7 +177,7 @@ button {
 .h2-third-section {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.1666em;
   color: var(--almost-black);
 }
 
@@ -187,7 +189,7 @@ footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.1923em;
   text-decoration: none;
   color: var(--white);
   letter-spacing: 0.03em;
@@ -197,20 +199,19 @@ footer {
   font-family: "Oleo Script", sans-serif;
   font-weight: 400;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.1923em;
   color: var(--blue);
   letter-spacing: 0.03em;
 }
 
 .logo-footer:hover,
 .logo-blue-footer:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--blue);
+  text-decoration: underline solid var(--blue);
 }
 
 .address-link {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7142em;
   letter-spacing: 0.03em;
   color: var(--white);
   text-decoration: none;
@@ -218,7 +219,7 @@ footer {
 
 .contact-footer {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7142em;
   list-style: none;
   letter-spacing: 0.03em;
 }
@@ -255,7 +256,7 @@ footer {
   color: var(--white);
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625em;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -265,7 +266,7 @@ footer {
   color: var(--almost-black);
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625em;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -275,7 +276,7 @@ footer {
   list-style: none;
   text-align: center;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875em;
   letter-spacing: 0.03em;
 }
 
@@ -290,13 +291,17 @@ footer {
 .h2-pf-section {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2em;
   text-align: left;
   letter-spacing: 0.06em;
 }
 
 .h2-pf-section:hover,
-.pf-section p:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--blue);
+.pf-section p:hover,
+.pf-button:hover {
+  text-decoration: underline solid var(--blue);
+}
+
+.pf-button-blue:hover {
+  text-decoration: underline solid var(--button-blue);
 }
